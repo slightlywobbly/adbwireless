@@ -3,7 +3,7 @@
 
     <string name="app_name">adbWireless</string>
     <string name="top_text">Welcome to adbWireless, you can enable or disable the wireless connection ADB interface by pressing the big button.</string>
-    <string name="footer_text_1">adbWireless is on, from your computer with Android SDK installed run:</string>
+    <string name="footer_text_1">adbWireless is on, from your computer with the Android SDK installed run:</string>
     <string name="footer_text_2"></string>
     <string name="footer_text_3">And you can use ADB as if connected by USB</string>
     <string name="footer_text_off">adbWireless is off</string>
@@ -12,13 +12,13 @@
     <string name="button_continue">Continue</string>
     <string name="button_activate_wifi">Activate WiFi</string>
     <string name="no_root_title">Not Root!</string>
-    <string name="no_root">Ops! Sorry, but your kernel does not have all necessary features for running this application, you need rooted phone.</string>
+    <string name="no_root">Oops! Sorry, but your kernel does not have all necessary features for running this application, you need a rooted phone.</string>
     <string name="no_wifi_title">No Wireless!</string>
-    <string name="no_wifi">Ops! Sorry, but WiFi is off, you need the active WiFi to use adbWireless.</string>
+    <string name="no_wifi">Oops! Sorry, but WiFi is off, you need an active WiFi to use adbWireless.</string>
     <string name="menu_prefs">Settings</string>
     <string name="menu_about">Info</string>
     <string name="menu_exit">Exit</string>
-    <string name="about">adbWireless enable ADB wireless connection to connect to the phone as if connected by USB.\n\nDeveloped by MrSiir (mrsiir@gmail.com)\n\nadbWirelessService:\nhttps://github.com/MrSiir/adbWireless/tree/master/server\n\nSource code:\nhttps://github.com/MrSiir/adbWireless\n\nContributors: HandlerExploit y Skywriter</string>
+    <string name="about">adbWireless enable ADB wireless connection to connect to the phone as if connected by USB.\n\nDeveloped by MrSiir (mrsiir@gmail.com)\n\nadbWirelessService:\nhttps://github.com/MrSiir/adbWireless/tree/master/server\n\nSource code:\nhttps://github.com/slightlywobbly/adbWireless\n\nContributors: HandlerExploit and Skywriter</string>
     <string name="noti_text">Connect to </string>
     <string name="noti_title">USB debugging connected</string>
     <string name="settings_title">Preferences</string>
@@ -29,17 +29,17 @@
 
     <!-- Settings -->
     <string name="onboot">Auto Start</string>
-    <string name="server_onboot">Start up automatically when restart your phone</string>
+    <string name="server_onboot">Start up automatically when phone is booted</string>
     <string name="vibrate">Vibrate</string>
-    <string name="server_vibrate">When the connection active</string>
+    <string name="server_vibrate">When the connection is active</string>
     <string name="sound">Sound</string>
-    <string name="server_sound">When the connection active</string>
+    <string name="server_sound">When the connection is active</string>
     <string name="notification">Notification</string>
-    <string name="server_noti">When the connection active</string>
+    <string name="server_noti">When the connection is active</string>
     <string name="haptic">Haptic feedback</string>
     <string name="server_haptic">On button press</string>
     <string name="wifi_on">WiFi auto on</string>
-    <string name="server_wifi_on">Turn on WiFi when app starts</string>
+    <string name="server_wifi_on">Turn on WiFi when the app starts</string>
     <string name="wifi_off">WiFi auto off</string>
     <string name="server_wifi_off">Turn off WiFi on app exit if it was off at app start</string>
     <string name="widget_start">adbWireless is on!\nConnect to</string>
@@ -82,7 +82,7 @@
     
     <!-- Start 1.5.4 -->
     <string name="screenon">Screen always on</string>
-    <string name="server_screenon">The screen never enter sleep mode</string>
+    <string name="server_screenon">The screen will never enter sleep mode</string>
     <string name="default_screenon">false</string>
     <string name="pref_screenon_key">key_screenon</string>
     <!-- End 1.5.4 -->
