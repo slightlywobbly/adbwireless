@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">adbWireless</string>
+    <string name="top_text">Bienvenido a adbWireless, puedes habilitar o deshabilitar la conexión inalámbrica para ADB pulsando el gran botón.</string>
+    <string name="footer_text_1">adbWireless está encendido, desde el pc con el SDK de Android ejecuta:</string>
+    <string name="footer_text_2"></string>
+    <string name="footer_text_3">Y ya puedes utilizar ADB como si el teléfono estuviera conectado por USB</string>
+    <string name="footer_text_off">adbWireless está apagado</string>
+    <string name="button_close">Cerrar</string>
+    <string name="button_exit">Salir</string>
+    <string name="button_continue">Continuar</string>
+    <string name="button_activate_wifi">Activar WiFi</string>
+    <string name="no_root_title">No Root!</string>
+    <string name="no_root">Ops! Lo sentimos pero tu kernel no tiene todas las características necesarias para el funcionamiento de esta aplicación, es necesario un teléfono rooteado.</string>
+    <string name="no_wifi_title">No Wireless!</string>
+    <string name="no_wifi">Ops! El WiFi está apagado, necesitas el WiFi activo para utilizar adbWireless.</string>
+    <string name="menu_prefs">Ajustes</string>
+    <string name="menu_about">Información</string>
+    <string name="menu_exit">Salir</string>
+    <string name="about">adbWireless habilita la conexión inalámbrica de ADB para conectarse al teléfono como si estuviera conectado por USB.\n\nDesarrollado por MrSiir (mrsiir@gmail.com)\n\nadbWirelessService:\nhttps://github.com/MrSiir/adbWireless/tree/master/server\n\nCódigo fuente:\nhttps://github.com/MrSiir/adbWireless\n\nHan contribuido: HandlerExploit y Skywriter</string>
+    <string name="noti_text">Conéctate a </string>
+    <string name="noti_title">Depuración de USB wireless activada</string>
+    <string name="settings_title">Preferencias</string>
+    <string name="turning_on_wifi">Encendiendo el WiFi&#8230;</string>
+    <string name="turning_off_wifi">Apagando el WiFi&#8230;</string>
+    <string name="connect_sample">adb connect 192.168.1.106</string>
+    <string name="exit_info">Para cerrar la aplicación utiliza el menú Salir. Para seguir trabajando utiliza el botón de inicio.</string>
+
+    <!-- Settings -->
+    <string name="onboot">Auto Start</string>
+    <string name="server_onboot">Arranca automáticamente cuando se reinicia el teléfono</string>
+    <string name="vibrate">Vibrar</string>
+    <string name="server_vibrate">Cuando la conexión se activa</string>
+    <string name="sound">Sonido</string>
+    <string name="server_sound">Cuando la conexión se activa</string>
+    <string name="notification">Notificación</string>
+    <string name="server_noti">Cuando la conexión se activa</string>
+    <string name="haptic">Haptic feedback</string>
+    <string name="server_haptic">Al presionar el gran botón</string>
+    <string name="wifi_on">WiFi auto on</string>
+    <string name="server_wifi_on">Enciende el WiFi cuando la aplicación se inicia</string>
+    <string name="wifi_off">WiFi auto off</string>
+    <string name="server_wifi_off">Apaga el WiFi al salir aplicación si estaba apagado cuando la app se inicio</string>
+    <string name="widget_start">adbWireless encendido!\nConéctate a</string>
+
+    <!-- Defaults -->
+    <string name="default_vibrate">true</string>
+    <string name="default_sound">true</string>
+    <string name="default_noti">true</string>
+    <string name="default_haptic">true</string>
+    <string name="default_wifi_on">false</string>
+    <string name="default_wifi_off">false</string>
+
+    <!-- Keys -->
+    <string name="pref_vibrate_key">key_vibrate</string>
+    <string name="pref_sound_key">key_sound</string>
+    <string name="pref_noti_key">key_noti</string>
+    <string name="pref_haptic_key">key_haptic</string>
+    <string name="pref_wifi_on_key">key_wifi_on</string>
+    <string name="pref_wifi_off_key">key_wifi_off</string>
+
+    <!-- Start 1.5.3 -->
+    <string name="autcon_incomplete">Tienes que configurar la IP y el Puerto para utilizar la auto conexión</string>
+    <string name="settings_title_autcon">Auto conexión</string>
+    <string name="settings_title_wifi">WiFi</string>
+    <string name="autocon">Auto conexión</string>
+    <string name="server_autocon">Conecta automáticamente al ordenador cuando se inicia ADB</string>
+    <string name="default_autocon">false</string>
+    <string name="pref_autocon_key">key_autocon</string>
+    <string name="autoconip">Ordenador host o IP</string>
+    <string name="server_autoconip">Dirección del ordenador, requiere adbWirelessService</string>
+    <string name="default_autoconip"></string>
+    <string name="pref_autoconip_key">key_autoconip</string>
+    <string name="autoconport">Ordenador puerto</string>
+    <string name="server_autoconport">Puerto del ordenador, por defecto 8555</string>
+    <string name="default_autoconport">8555</string>
+    <string name="pref_autoconport_key">key_autoconport</string>
+    <!-- End 1.5.3 -->
+    
+	<!-- Start 1.5.4 -->
+    <string name="screenon">Pantalla siempre activa</string>
+    <string name="server_screenon">La pantalla nunca entrará en modo de suspensión</string>
+    <string name="default_screenon">false</string>
+    <string name="pref_screenon_key">key_screenon</string>
+    <!-- End 1.5.4 -->
+
+</resources>

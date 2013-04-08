@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">adbWireless</string>
+    <string name="top_text">Welcome to adbWireless, you can enable or disable the wireless connection ADB interface by pressing the big button.</string>
+    <string name="footer_text_1">adbWireless is on, from your computer with Android SDK installed run:</string>
+    <string name="footer_text_2"></string>
+    <string name="footer_text_3">And you can use ADB as if connected by USB</string>
+    <string name="footer_text_off">adbWireless is off</string>
+    <string name="button_close">Close</string>
+    <string name="button_exit">Exit</string>
+    <string name="button_continue">Continue</string>
+    <string name="button_activate_wifi">Activate WiFi</string>
+    <string name="no_root_title">Not Root!</string>
+    <string name="no_root">Ops! Sorry, but your kernel does not have all necessary features for running this application, you need rooted phone.</string>
+    <string name="no_wifi_title">No Wireless!</string>
+    <string name="no_wifi">Ops! Sorry, but WiFi is off, you need the active WiFi to use adbWireless.</string>
+    <string name="menu_prefs">Settings</string>
+    <string name="menu_about">Info</string>
+    <string name="menu_exit">Exit</string>
+    <string name="about">adbWireless enable ADB wireless connection to connect to the phone as if connected by USB.\n\nDeveloped by MrSiir (mrsiir@gmail.com)\n\nadbWirelessService:\nhttps://github.com/MrSiir/adbWireless/tree/master/server\n\nSource code:\nhttps://github.com/MrSiir/adbWireless\n\nContributors: HandlerExploit y Skywriter</string>
+    <string name="noti_text">Connect to </string>
+    <string name="noti_title">USB debugging connected</string>
+    <string name="settings_title">Preferences</string>
+    <string name="turning_on_wifi">Turning on WiFi</string>
+    <string name="turning_off_wifi">Turning off WiFi</string>
+    <string name="connect_sample">adb connect 192.168.1.106</string>
+    <string name="exit_info">To close the application use the Exit menu. To continue working use the home button.</string>
+
+    <!-- Settings -->
+    <string name="onboot">Auto Start</string>
+    <string name="server_onboot">Start up automatically when restart your phone</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="server_vibrate">When the connection active</string>
+    <string name="sound">Sound</string>
+    <string name="server_sound">When the connection active</string>
+    <string name="notification">Notification</string>
+    <string name="server_noti">When the connection active</string>
+    <string name="haptic">Haptic feedback</string>
+    <string name="server_haptic">On button press</string>
+    <string name="wifi_on">WiFi auto on</string>
+    <string name="server_wifi_on">Turn on WiFi when app starts</string>
+    <string name="wifi_off">WiFi auto off</string>
+    <string name="server_wifi_off">Turn off WiFi on app exit if it was off at app start</string>
+    <string name="widget_start">adbWireless is on!\nConnect to</string>
+
+    <!-- Defaults -->
+    <string name="default_vibrate">true</string>
+    <string name="default_sound">true</string>
+    <string name="default_noti">true</string>
+    <string name="default_haptic">true</string>
+    <string name="default_wifi_on">false</string>
+    <string name="default_wifi_off">false</string>
+    <string name="default_onboot">false</string>
+
+    <!-- Keys -->
+    <string name="pref_vibrate_key">key_vibrate</string>
+    <string name="pref_sound_key">key_sound</string>
+    <string name="pref_noti_key">key_noti</string>
+    <string name="pref_haptic_key">key_haptic</string>
+    <string name="pref_wifi_on_key">key_wifi_on</string>
+    <string name="pref_wifi_off_key">key_wifi_off</string>
+    <string name="pref_onboot_key">key_onboot</string>
+
+    <!-- Start 1.5.3 -->
+    <string name="autcon_incomplete">You must configure the IP and port to use auto connection</string>
+    <string name="settings_title_autcon">Auto connection</string>
+    <string name="settings_title_wifi">WiFi</string>
+    <string name="autocon">Auto connection</string>
+    <string name="server_autocon">Connects to your computer automatically when you start ADB</string>
+    <string name="default_autocon">false</string>
+    <string name="pref_autocon_key">key_autocon</string>
+    <string name="autoconip">Computer host or IP</string>
+    <string name="server_autoconip">Address of the computer, requires adbWirelessService</string>
+    <string name="default_autoconip"></string>
+    <string name="pref_autoconip_key">key_autoconip</string>
+    <string name="autoconport">Computer port</string>
+    <string name="server_autoconport">The default is port 8555</string>
+    <string name="default_autoconport">8555</string>
+    <string name="pref_autoconport_key">key_autoconport</string>
+    <!-- End 1.5.3 -->
+    
+    <!-- Start 1.5.4 -->
+    <string name="screenon">Screen always on</string>
+    <string name="server_screenon">The screen never enter sleep mode</string>
+    <string name="default_screenon">false</string>
+    <string name="pref_screenon_key">key_screenon</string>
+    <!-- End 1.5.4 -->
+
+</resources>

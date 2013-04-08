@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:persistent="true" >
+
+    <PreferenceCategory android:title="@string/settings_title" >
+        <CheckBoxPreference
+            android:defaultValue="@string/default_onboot"
+            android:key="@string/pref_onboot_key"
+            android:summary="@string/server_onboot"
+            android:title="@string/onboot" />
+        <CheckBoxPreference
+            android:defaultValue="@string/default_screenon"
+            android:key="@string/pref_screenon_key"
+            android:summary="@string/server_screenon"
+            android:title="@string/screenon" />
+        <CheckBoxPreference
+            android:defaultValue="@string/default_vibrate"
+            android:key="@string/pref_vibrate_key"
+            android:summary="@string/server_vibrate"
+            android:title="@string/vibrate" />
+        <CheckBoxPreference
+            android:defaultValue="@string/default_sound"
+            android:key="@string/pref_sound_key"
+            android:summary="@string/server_sound"
+            android:title="@string/sound" />
+        <CheckBoxPreference
+            android:defaultValue="@string/default_noti"
+            android:key="@string/pref_noti_key"
+            android:summary="@string/server_noti"
+            android:title="@string/notification" />
+        <CheckBoxPreference
+            android:defaultValue="@string/default_haptic"
+            android:key="@string/pref_haptic_key"
+            android:summary="@string/server_haptic"
+            android:title="@string/haptic" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_title_autcon" >
+        <CheckBoxPreference
+            android:defaultValue="@string/default_autocon"
+            android:key="@string/pref_autocon_key"
+            android:summary="@string/server_autocon"
+            android:title="@string/autocon" />
+
+        <EditTextPreference
+            android:defaultValue="@string/default_autoconip"
+            android:dependency="@string/pref_autocon_key"
+            android:key="@string/pref_autoconip_key"
+            android:summary="@string/server_autoconip"
+            android:title="@string/autoconip" />
+        <EditTextPreference
+            android:defaultValue="@string/default_autoconport"
+            android:dependency="@string/pref_autocon_key"
+            android:key="@string/pref_autoconport_key"
+            android:summary="@string/server_autoconport"
+            android:title="@string/autoconport" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_title_wifi" >
+        <CheckBoxPreference
+            android:defaultValue="@string/default_wifi_on"
+            android:key="@string/pref_wifi_on_key"
+            android:summary="@string/server_wifi_on"
+            android:title="@string/wifi_on" />
+        <CheckBoxPreference
+            android:defaultValue="@string/default_wifi_off"
+            android:key="@string/pref_wifi_off_key"
+            android:summary="@string/server_wifi_off"
+            android:title="@string/wifi_off" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

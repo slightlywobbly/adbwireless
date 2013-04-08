@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="10sp" >
+
+    <TextView
+        android:id="@+id/tv_top_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20sp"
+        android:paddingTop="10sp"
+        android:text="@string/top_text"
+        android:textColor="#ffffff" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:id="@+id/iv_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bt_on" >
+        </ImageView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_footer_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20sp"
+        android:text="@string/footer_text_1" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_footer_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="10sp"
+        android:paddingTop="10sp"
+        android:text="@string/connect_sample"
+        android:textColor="#eee"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_footer_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/footer_text_3" >
+    </TextView>
+
+</LinearLayout>
